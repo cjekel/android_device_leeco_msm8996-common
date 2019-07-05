@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-du
 
 PRODUCT_ENFORCE_RRO_TARGETS := framework-res
 
@@ -237,13 +237,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.leeco_8996
 
-# Lineage hardware
+# DU hardware
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.leeco_8996
+    vendor.du.touch@1.0-service.leeco_8996
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
+    vendor.du.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -357,7 +357,7 @@ PRODUCT_PACKAGES += \
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+    vendor.du.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
