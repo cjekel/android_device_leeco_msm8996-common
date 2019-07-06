@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-#ifndef VENDOR_LINEAGE_TOUCH_V1_0_KEYDISABLER_H
-#define VENDOR_LINEAGE_TOUCH_V1_0_KEYDISABLER_H
+#ifndef VENDOR_DU_TOUCH_V1_0_KEYDISABLER_H
+#define VENDOR_DU_TOUCH_V1_0_KEYDISABLER_H
 
-#include <vendor/lineage/touch/1.0/IKeyDisabler.h>
+#include <vendor/du/touch/1.0/IKeyDisabler.h>
 
 namespace vendor {
-namespace lineage {
+namespace du {
 namespace touch {
 namespace V1_0 {
 namespace implementation {
